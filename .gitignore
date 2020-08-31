@@ -2,6 +2,12 @@
 */.DS_Store
 .DS_Store
 
+# GitHub wiki file
+wiki/
+
+# tailwind css files
+public/css/style.css
+
 # For Mac User
 **/.DS_Store
 
