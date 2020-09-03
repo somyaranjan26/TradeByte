@@ -56,6 +56,7 @@ router.post("/buy", ensureAuth, async (req, res) => {
         layout: "layouts/app",
         href: "/buy",
         ExtraBalance,
+        opration: "",
         message: "Insufficient Balance",
       });
     } else {
@@ -64,6 +65,7 @@ router.post("/buy", ensureAuth, async (req, res) => {
         user,
         totalAmount,
         stockPrice,
+        opration: "",
         message: "Transaction Review",
         layout: "layouts/app",
         href: "/buy",
